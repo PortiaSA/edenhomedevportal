@@ -1,0 +1,45 @@
+html,body {
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+a {
+  color: #DD3E85;
+}
+
+  a:hover {
+    color: #DD3E85;
+  }
+
+#root {
+  height: 100%;
+}
+
+div[data-reactroot]
+        {position: absolute; width: 100% !important; height: 100% !important; }
+
+.main {
+  margin-top: 50px;
+}
+
+#documentation {
+  position: absolute;
+  width: 100% !important;
+  height: -webkit-calc(100% - 190px);
+  height:    -moz-calc(100% - 190px);
+  height:         calc(100% - 190px);
+}
+
+.btn-primary {
+  background-color: #EB207D;
+  background-image: none;
+  border-radius: 0px;
+  border: 2px solid #333;
+  box-shadow: 0;
+}
+
+.btn-primary:hover {
+  background-color: #333;
+  border: 2px solid #333;
+}

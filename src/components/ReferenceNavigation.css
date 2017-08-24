@@ -1,0 +1,20 @@
+.second-navigation {
+    align-items: center;
+    background: #F5F5F5;
+    border-bottom: 1px solid #dbe3e7;
+    padding: 25px;
+}
+
+  .second-navigation h1 {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .second-navigation h1 a {
+    color: #333;
+    cursor: pointer;
+  }
+
+  .action-button-right {
+    margin-top: 2px;
+  }
